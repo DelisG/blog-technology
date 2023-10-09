@@ -1,9 +1,9 @@
 <div align="center">
-  <h1 align="center">🌎 Blog Technology </h1>
+  <h1 >🌎 Blog Technology </h1>
 
  Aqui você encontra artigos sobre Tecnologia, Sustentabilidade, Saúde e Empreendedorismo
 
-  <a href="https://delisg.github.io/blog-technology/"><h1 align="center"><strong>➥ 👀 Demo</h1>
+  <a href="https://delisg.github.io/blog-technology/"><h1><strong>➥ 👀 Demo</h1>
 </strong></a>
 
 </div>
