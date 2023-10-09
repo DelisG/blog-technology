@@ -321,6 +321,10 @@ nav {
   color: #198754;
 }
 
+.div-artigo{
+    padding: 0px 0px;
+
+}
 
 .card-top-artigos h5 {
   color: #49494b;
@@ -328,7 +332,7 @@ nav {
 
 .card-top-artigos {
   border-left: solid 5px #0c432a;
-  margin: 2px 0px;
+  padding: 10px 20px;
 }
 
 .top-artigos p {
