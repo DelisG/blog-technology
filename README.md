@@ -7,8 +7,6 @@
 </strong></a>
 
 </div>
-
-
 Explore um mundo de conhecimento e descubra as últimas tendências e inovações em quatro áreas fundamentais: Tecnologia, Sustentabilidade, Saúde e Empreendedorismo. Nosso blog é uma fonte confiável de informações, apresentando uma ampla variedade de artigos atualizados regularmente, todos cuidadosamente selecionados para manter você informado e inspirado.
 
 ## Recursos que Você Vai Adorar:
@@ -27,5 +25,5 @@ Explore um mundo de conhecimento e descubra as últimas tendências e inovaçõe
 
 - 🕹️ **Intuitivo e Fácil de Usar**: Nosso layout intuitivo torna a navegação no blog uma experiência simples e agradável.
 
-Você vai descubrir as histórias por trás das inovações tecnológicas, explore maneiras de preservar nosso planeta, aprofundar-se nos avanços da medicina e obter insights sobre o mundo do empreendedorismo. 
+Você vai descubrir as histórias por trás das inovações tecnológicas, explorar maneiras de preservar nosso planeta, aprofundar-se nos avanços da medicina e obter insights sobre o mundo do empreendedorismo. 
 
