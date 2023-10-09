@@ -66,7 +66,7 @@ function criarCard(imagem, texto) {
                         class=" col-lg-4 card rounded-3 elevacao div-artigo">
                         <div class="card-body card-artigo">
                             <img
-                                src="https://www.publi.com.br/wp-content/uploads/2020/05/x-estrategias-de-Sustentabilidade-digital-para-voce-utilizar-nas-redes-sociais-da-sua-empresa-20200427141133.jpg-1.jpg">
+                                src="https://www.imexmedicalgroup.com.br/wp-content/uploads/2021/08/BLOG-imex-futuro-medicina-1024x555.jpg">
                             <p class="category">Saúde</p>
 
                         </div>
