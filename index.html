@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog Technology</title>
+        <link rel="icon" href="/assets/images/favicon.ico" type="icon">
+
+        <!-- GoogleFonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat:wght@300&family=Orbitron:wght@500&family=Raleway&family=Russo+One&family=Titan+One&display=swap"
+            rel="stylesheet">
+
+        <!-- Fontawsome -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://kit.fontawesome.com/647606b0ed.js"
+            crossorigin="anonymous"></script>
+
+        <!-- Bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <header class="bg-light">
+            <nav class="navbar px-5 navbar-expand-sm navbar-light">
+                <div class="container-fluid">
+
+                    <a class="navbar-brand m-0" href="index.html"><img
+                            src="assets/images/logo.png" width="180" alt></a>
+                    <button class="navbar-toggler border-0" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse"
+                        id="navbarNavAltMarkup">
+                        <div class="navbar-nav ms-auto">
+                            <a class="nav-link ms-3"
+                                href="assets/artigos/empreendedorismo.html">Empreendedorismo</a>
+                            <a class="nav-link ms-3"
+                                href="assets/artigos/tecnologia.html">Tecnologia</a>
+                            <a class="nav-link ms-3"
+                                href="assets/artigos/sustentabilidade.html">Sustentabilidade</a>
+                            <a class="nav-link ms-3"
+                                href="assets/artigos/saude.html">Saúde</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+
+            <!-- seachbar -->
+            <section>
+                <div class="container" id="seachbar">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-8">
+                            <div class="input-group pt-3 div-pesquisa">
+                                <input type="text" id="pesquisa"
+                                    class="form-control p-3 border-light"
+                                    placeholder="Pesquisar por...">
+                                <button class="btn btn-success p-3"
+                                    type="button">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </div>
+                            <div id="resultados"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- artigos -->
+            <section id="artigos"
+                class="container-fluid text-dark">
+                <div class="row my-2">
+                    <div class="col-md-12 
+                        align-items-center p-1">
+                        <div class="row row-col-gr">
+
+                            <div
+                                class="col-lg-6 position-relative d-inline-block">
+                                <div class="card elevacao">
+
+                                    <img
+                                        src="https://politecnicoguarda.pt/wp-content/uploads/2023/05/Intelige%CC%82ncia-Artificial-no-Politecnico-da-Guarda_Igor-Marias1.jpg"
+                                        class="w-100 h-100"
+                                        alt="Imagem">
+                                    <p class="category">Saúde</p>
+
+                                    <div class="card-body">
+                                        <a class="text-decoration-none"
+                                            href="#"><h3
+                                                class="card-title p-2 fw-bold">Inteligência Artificial no Setor de Saúde: Avanços que estão transformando a medicina </h3></a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="col-lg-6  d-flex justify-content-between gap-2 flex-column top-artigos px-4">
+                                <h2><strong>Top Artigos</strong></h2>
+                                <div class="card-top-artigos px-3 py-1 elevacao">
+                                    <a
+                                        href="https://Saúderecife.com/artigo.html?titulo=Tend%C3%AAncias%20em%20Empreendedorismo%20B2B"
+                                        class="text-decoration-none">
+                                        <h5 ><strong>Bem-Estar Mental e Tecnologia na Era Digital</strong></h5>
+                                        <p>Explore como a tecnologia pode ser usada para melhorar o bem-estar mental.</p>
+                                    </a>
+                                </div>
+
+                                <div class="card-top-artigos px-3 py-1 elevacao">
+                                    <a
+                                        href="https://Saúderecife.com/artigo.html?titulo=Tend%C3%AAncias%20em%20Empreendedorismo%20B2B"
+                                        class="text-decoration-none">
+                                        <h5 ><strong>Moda Sustentável e Tecnologia</strong></h5>
+                                            <p>Descubra como a tecnologia está transformando a moda sustentável.</p>
+                                    </a>
+                                </div>
+
+                                <div class="card-top-artigos px-3 py-1 elevacao">
+                                    <a
+                                        href="https://Saúderecife.com/artigo.html?titulo=Gest%C3%A3o%20Financeira%20Empresarial"
+                                        class="text-decoration-none">
+                                        <h5 ><strong>Agricultura Sustentável e Tecnologia</strong></h5>
+                                        <p>Descubra como a tecnologia está transformando a agricultura sustentável.</p>
+                                    </a>
+                                </div>
+                                <div class="card-top-artigos px-3 py-1 elevacao">
+                                    <a
+                                        href="https://Saúderecife.com/artigo.html?titulo=Abordagens%20Inovadoras%20de%20Empreendedorismo"
+                                        class="text-decoration-none">
+                                        <h5 ><strong>Soluções verdes para empreendedores</strong></h5>
+                                        <p>Descubra como a tecnologia está impulsionando o empreendedorismo sustentável.</p>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- cards -->
+            <div id="cards" class="container-fluid">
+                <div class="row row-col flex-wrap gap-3">
+                    <div
+                        class=" col-lg-4 card rounded-3 elevacao div-artigo">
+                        <div class="card-body card-artigo">
+                            <img
+                                src="https://www.axiomab2b.com/wp-content/uploads/E-COMMERCE.jpg">
+                            <p class="category">Empreendedorismo</p>
+
+                        </div>
+
+                        <div class="p-4">
+                            <h4>Empreendedorismo no E-commerce</h4>
+                            <p class="py-2">Descubra como empreendedores estão prosperando no comércio eletrônico.</p>
+                            <a
+                                href="https://Saúderecife.com/artigo.html?titulo=Tecnologias%20Emergentes%20para%202024"
+                                class="text-decoration-none">Ver mais</a>
+                        </div>
+                    </div>
+                    <div
+                        class=" col-lg-4 card rounded-3 elevacao div-artigo">
+                        <div class="card-body card-artigo">
+                            <img
+                                src="https://www.sambiental.com.br/sites/default/files/2021-08/energia_3.jpg">
+                            <p class="category">Tecnologia</p>
+
+                        </div>
+
+                        <div class="p-4">
+                            <h4>Energia Renovável e Sustentabilidade Tecnológica</h4>
+                            <p class="py-2">Explore como a tecnologia está impulsionando a transição para fontes de energia renovável.</p>
+                            <a
+                                href="https://Saúderecife.com/artigo.html?titulo=Auditoria%20Financeira%20Simplificada"
+                                class="text-decoration-none">Ver mais</a>
+                        </div>
+                    </div>
+                    <div
+                        class=" col-lg-4 card rounded-3 elevacao div-artigo">
+                        <div class="card-body card-artigo">
+                            <img
+                                src="https://www.pucrs.br/print-pt/wp-content/uploads/sites/225/2019/02/theme31280x470-1280x470.jpg">
+                            <p class="category">Sustentabilidade</p>
+
+                        </div>
+
+                        <div class="p-4">
+                            <h4>Tecnologia na Conservação da Biodiversidade</h4>
+                            <p class="py-2">Saiba como a tecnologia está sendo usada para proteger a diversidade biológica.</p>
+                            <a
+                                href="https://Saúderecife.com/artigo.html?titulo=Estrat%C3%A9gias%20de%20Redes%20Sociais"
+                                class="text-decoration-none">Ver mais</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 py-4">
+                        <div id="verMaisContainer"
+                            class=" rounded-3 div-artigo d-flex justify-content-center">
+                            <button id="verMaisBtn" class="botao-vermelho-medio">Carregar
+                                Mais<i class="fa-solid fa-angle-down px-2"></i></button>
+                        </div>
+                    </div>
+                    <div id="cardsContainer">
+                        <!-- Os cards serão adicionados aqui -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- icone whatsapp pulse -->
+            <div>
+                <a
+                    href="https://api.whatsapp.com/send?phone=5581988977098&text=Ol%C3%A1,%20como%20podemos%20ajudar?"
+                    class="wa" target="_blank">
+                    <img src="assets/images/WhatsApp.webp" alt width="25">
+                </a>
+            </div>
+
+        </main>
+
+        <footer
+            class="container-fluid px-5 sm-text-center">
+            <div class=" row-col-small  py-3">
+                <div
+                    class="flex-column d-flex justify-content-center font-small">
+                    <div
+                        class="flex-row d-flex justify-content-center align-items-center  ">
+                        <a href="index.html"><img
+                                src="assets/images/icone-verde.png"
+                                alt="logo anexo"
+                                class="logo-footer"></a>
+                    </div>
+                </div>
+                <div
+                    class="flex-column d-flex justify-content-around ">
+
+                </div>
+
+                <div
+                    class="flex-row d-flex justify-content-center align-items-center mt-4">
+                    <div>
+                        <p class="font-small text-center text-light mx-2">Desenvolvido
+                            por:</p>
+                        <a href="https://delisguerra.com/"
+                            class="text-decoration-none"><p
+                                class="text-success text-center">Delis Guerra</p></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div
+                class="border-top border-secondary row-col py-3">
+
+                <div>
+                    <p class="text-center text-light"> © Blog Technology 2023 -
+                        Todos os
+                        direitos
+                        reservados</p>
+                </div>
+
+                <div
+                    class="icone-redes-sociais text-center d-flex justify-content-center">
+                    <div class="d-flex flex-row gap-3 text-decoration-none">
+                        <a
+                            href="https://api.whatsapp.com/send?phone=5581988977098&text=Ol%C3%A1,%20como%20podemos%20ajudar?"
+                            alt="redes sociais"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/delisz/"
+                            alt="redes sociais"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a
+                            href="https://www.linkedin.com/in/delisguerra/"
+                            alt="redes sociais"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="mailto:delisgmarques@gmail.com"
+                            alt=" sociais"><i
+                                class="fa-regular fa-envelope"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+        <script src="assets/js/index.js"></script>
+    </body>
+</html>
