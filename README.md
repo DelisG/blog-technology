@@ -1,10 +1,16 @@
+  <h1 >🌎 Blog Technology </h1> 
+
+
+[![Status: Em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-darkgreen)](#)
+
+
 <div align="center">
-  <h1 >🌎 Blog Technology </h1>
 
  Aqui você encontra artigos sobre Tecnologia, Sustentabilidade, Saúde e Empreendedorismo
- <h1><strong><a href="https://delisg.github.io/blog-technology/">➥ 👀 Demo</a></strong></h1>
+ <h1><strong><a href="https://delisg.github.io/blog-technology/" style="color: green;">➥ 👀 Demo</a></strong></h1>
 
 </div>
+
 Explore um mundo de conhecimento e descubra as últimas tendências e inovações em quatro áreas fundamentais: Tecnologia, Sustentabilidade, Saúde e Empreendedorismo. Nosso blog é uma fonte confiável de informações, apresentando uma ampla variedade de artigos atualizados regularmente, todos cuidadosamente selecionados para manter você informado e inspirado.
 
 ## Recursos que Você Vai Adorar:
