@@ -2,9 +2,7 @@
   <h1 >🌎 Blog Technology </h1>
 
  Aqui você encontra artigos sobre Tecnologia, Sustentabilidade, Saúde e Empreendedorismo
-
-  <a href="https://delisg.github.io/blog-technology/"><h1><strong>➥ 👀 Demo</h1>
-</strong></a>
+ <h1><strong><a href="https://delisg.github.io/blog-technology/">➥ 👀 Demo</a></strong></h1>
 
 </div>
 Explore um mundo de conhecimento e descubra as últimas tendências e inovações em quatro áreas fundamentais: Tecnologia, Sustentabilidade, Saúde e Empreendedorismo. Nosso blog é uma fonte confiável de informações, apresentando uma ampla variedade de artigos atualizados regularmente, todos cuidadosamente selecionados para manter você informado e inspirado.
