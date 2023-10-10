@@ -4,7 +4,7 @@
 [![Status: Em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-darkgreen)](#)
 
 
-<div align="center">
+<div>
 
  Aqui você encontra artigos sobre Tecnologia, Sustentabilidade, Saúde e Empreendedorismo
  <h1  style="color: green; text-decoration: none;"><strong><a href="https://delisg.github.io/blog-technology/">➥ 👀 Demo</a></strong></h1>
