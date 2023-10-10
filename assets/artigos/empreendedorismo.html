@@ -96,11 +96,11 @@
 
             <!-- icone whatsapp pulse -->
             <div>
-               <a
+               <!-- <a
                     href="https://api.whatsapp.com/send?phone=5581988977098&text=Ol%C3%A1,%20como%20podemos%20ajudar?"
                     class="wa" target="_blank">
                     <img src="../images/WhatsApp.webp" alt width="25">
-                </a>
+                </a> -->
             </div>
 
         </main>
@@ -152,6 +152,9 @@
                         <a
                             href="https://api.whatsapp.com/send?phone=5581988977098&text=Ol%C3%A1,%20como%20podemos%20ajudar?"
                             alt="redes sociais"><i class="fa-brands fa-whatsapp"></i></a>
+                         <a
+                            href="https://github.com/delisG"
+                            alt="redes sociais"><i class="fa-brands fa-github"></i></a
                         <a href="https://www.instagram.com/delisz/"
                             alt="redes sociais"><i
                                 class="fa-brands fa-instagram"></i></a>
@@ -179,12 +182,12 @@
 
             artigosMarketing.forEach(artigo => {
                 const card = document.createElement('div');
-                card.classList.add('col-md-4', 'd-flex', 'mb-2');
+                card.classList.add('col-md-4', 'd-flex', 'mb-4');
 
                 card.innerHTML = `
                 <div class="card rounded-3 elevacao div-artigo">
                     <div class="card-body card-artigo">
-                        <img src="${artigo.imagem2}">
+                        <img src="${artigo.imagem}">
                         <p class="category">${artigo.categoria}</p>
                     </div>
                     <div class="p-4">
