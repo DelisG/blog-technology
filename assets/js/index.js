@@ -98,14 +98,14 @@ function adicionarCards() {
 
 var verMaisBtn = document.getElementById("verMaisBtn");
 verMaisBtn.addEventListener("click", function () {
-  adicionarCards(); // Chama a função para adicionar os cards quando o botão "Ver Mais" é clicado
-  verMaisBtn.style.display = "none"; // Oculta o botão "Ver Mais"
+  adicionarCards();
+  verMaisBtn.style.display = "none";
 });
 
 const artigos = [
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/jovem-usando-oculos-de-realidade-virtual_53876-14671.jpg",
+      "https://img.olhardigital.com.br/wp-content/uploads/2022/05/Realidade-Aumentada.jpg",
     titulo: "Futuro da Realidade Virtual",
     subtitulo: "Explorando novas dimensões digitais",
     descricao:
@@ -119,7 +119,7 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/robotica-de-tecnologia-de-automacao_33353-1500.jpg",
+      "https://resources.news.e.abb.com/images/2021/2/19/0/16286-052_small.jpg",
     titulo: "Robótica Avançada",
     subtitulo: "O futuro da automação e inteligência artificial",
     descricao:
@@ -133,7 +133,7 @@ const artigos = [
   },
   {
     imagem:
-      "https://image.freepik.com/fotos-gratis/profissional-de-ciberseguranca_53876-14371.jpg",
+      "https://www.terraempresas.com.br/blog/wp-content/uploads/2022/07/terra-empresas-seguranca-digital-capa.jpg",
     titulo: "Cibersegurança em Ascensão",
     subtitulo: "Protegendo dados e sistemas em um mundo digital",
     descricao:
@@ -147,20 +147,7 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/jovem-usando-oculos-de-realidade-virtual_53876-14671.jpg",
-    titulo: "Futuro da Realidade Virtual",
-    subtitulo: "Explorando novas dimensões digitais",
-    descricao:
-      "Descubra as últimas inovações em realidade virtual e como ela está transformando a forma como interagimos com o mundo digital.",
-    texto:
-      "A realidade virtual (RV) está mudando a maneira como experimentamos e interagimos com o mundo digital. Neste artigo, mergulhamos nas últimas inovações em RV, desde jogos imersivos até aplicações educacionais. Saiba como a RV está sendo usada em diversos setores, incluindo entretenimento, medicina e treinamento corporativo. Prepare-se para uma viagem emocionante ao futuro da tecnologia de RV.",
-    textocomplementar:
-      "No campo 'texto-complementar', você encontrará exemplos de empresas que estão liderando o caminho na RV, insights sobre o uso da RV na medicina e dicas para escolher o melhor headset de RV.",
-    data: "20/04/2023",
-    categoria: "Tecnologia",
-  },
-  {
-    imagem: "https://img.freepik.com/fotos-gratis/criptomoedas_1194-375.jpg",
+      "https://master.clear.com.br/wp-content/uploads/sites/2/2022/09/criptomoedas-capa.jpeg",
     titulo: "Criptomoedas em Destaque",
     subtitulo: "O mundo das moedas digitais",
     descricao:
@@ -174,7 +161,8 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/dispositivos-de-conexao-de-internet-das-coisas_53876-19589.jpg",
+      "https://endeavor.org.br/wp-content/uploads/2015/07/internet-das-coisas.jpg",
+
     titulo: "Internet das Coisas (IoT) e Seu Impacto na Tecnologia",
     subtitulo: "A revolução conectada",
     descricao:
@@ -188,7 +176,8 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/mulher-com-olhos-fechados-tirando-um-tempo-para-relaxar_1150-41429.jpg",
+      "https://img.freepik.com/fotos-gratis/medico-com-tablet-e-holograma-coracao_53876-14618.jpg",
+
     titulo: "Bem-Estar Mental e Tecnologia na Era Digital",
     subtitulo: "Equilibrando sua saúde mental em um mundo conectado",
     descricao:
@@ -202,7 +191,20 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/holograma-3d-de-um-cerebro-ai_53876-15015.jpg",
+      "https://www.conexasaude.com.br/blog/wp-content/uploads/2020/05/original-2755be47cffd46366e5a9ca654c3beb8-768x436.jpg",
+    titulo: "Inteligência Artificial no Diagnóstico Médico",
+    subtitulo: "Precisão e eficiência na medicina",
+    descricao: "Explore como a IA está revolucionando o diagnóstico médico.",
+    texto:
+      "A inteligência artificial está desempenhando um papel fundamental na melhoria da precisão do diagnóstico médico. Neste artigo, analisamos como algoritmos de IA são treinados para identificar doenças com rapidez e eficiência, auxiliando médicos em suas decisões clínicas. Saiba como a IA está transformando a medicina ao tornar o diagnóstico mais preciso e permitir tratamentos mais personalizados.",
+    textocomplementar:
+      "No campo 'texto-complementar', você encontrará exemplos de sistemas de IA em diagnóstico médico, discussões sobre a ética da IA na medicina e previsões para o futuro da assistência médica com IA.",
+    data: "02/11/2023",
+    categoria: "Saúde",
+  },
+  {
+    imagem:
+      "https://www.drgbrasil.com.br/wp-content/uploads/2021/04/inteligencia-artificial-na-saude-capa.jpg",
     titulo: "Inteligência Artificial no Setor de Saúde",
     subtitulo: "Avanços que estão transformando a medicina",
     descricao:
@@ -216,7 +218,7 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/medico-com-tablet-e-holograma-coracao_53876-14618.jpg",
+      "https://img.europapress.es/fotoweb/fotonoticia_20211217123022_420.jpg",
     titulo: "Telemedicina e Conectividade",
     subtitulo: "A revolução na prestação de cuidados de saúde",
     descricao:
@@ -230,8 +232,8 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/dispositivo-portatil-de-monitoramento-de-saude_53876-15536.jpg",
-    titulo: "Wearables para Saúde",
+      "https://www.oficinadanet.com.br/imagens/post/26887/o_que_esta_reservado_para_o_futuro_dos_wearables_1400x875_5d40da1a0da06.jpg",
+    titulo: "Wearables: auxiliando no diagnostico prévio",
     subtitulo: "Tecnologia vestível que salva vidas",
     descricao:
       "Descubra como os dispositivos vestíveis estão promovendo a saúde e o bem-estar.",
@@ -242,22 +244,10 @@ const artigos = [
     data: "19/08/2023",
     categoria: "Saúde",
   },
+
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/conceito-de-doutor-inteligente-ia_53876-14447.jpg",
-    titulo: "Inteligência Artificial no Diagnóstico Médico",
-    subtitulo: "Precisão e eficiência na medicina",
-    descricao: "Explore como a IA está revolucionando o diagnóstico médico.",
-    texto:
-      "A inteligência artificial está desempenhando um papel fundamental na melhoria da precisão do diagnóstico médico. Neste artigo, analisamos como algoritmos de IA são treinados para identificar doenças com rapidez e eficiência, auxiliando médicos em suas decisões clínicas. Saiba como a IA está transformando a medicina ao tornar o diagnóstico mais preciso e permitir tratamentos mais personalizados.",
-    textocomplementar:
-      "No campo 'texto-complementar', você encontrará exemplos de sistemas de IA em diagnóstico médico, discussões sobre a ética da IA na medicina e previsões para o futuro da assistência médica com IA.",
-    data: "02/11/2023",
-    categoria: "Saúde",
-  },
-  {
-    imagem:
-      "https://img.freepik.com/fotos-gratis/pesquisadores-de-nanotecnologia-trabalhando-em-laboratorio_53876-14279.jpg",
+      "https://angiomedi.com.br/home/wp-content/uploads/2018/11/Screenshot_1-1024x569.jpg",
     titulo: "Nanotecnologia na Medicina",
     subtitulo: "Avanços que estão transformando a cura",
     descricao:
@@ -270,8 +260,7 @@ const artigos = [
     categoria: "Saúde",
   },
   {
-    imagem:
-      "https://img.freepik.com/fotos-gratis/startup-business-people-group-reuniao-na-sala-de-reunioes-jovem-empresario-start-up-team-treinamento-corporativo-10483-85.jpg",
+    imagem: "https://abstartups.com.br/wp-content/uploads/2018/02/ink-1.png",
     titulo: "Startups de Tecnologia",
     subtitulo: "O mundo das oportunidades empreendedoras",
     descricao:
@@ -285,7 +274,7 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/criptomoeda-digital-com-cadeado-na-tela-do-computador_53876-25484.jpg",
+      "https://startse-uploader.s3.us-east-2.amazonaws.com/bitcoin_blockchain_c7f93b989a.jpg",
     titulo: "Blockchain e Empreendedorismo",
     subtitulo: "Explorando as oportunidades da tecnologia blockchain",
     descricao:
@@ -299,7 +288,7 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/robo-de-inteligencia-artificial-e-o-mundo-digital_53876-24477.jpg",
+      "https://classic.exame.com/wp-content/uploads/2018/10/robc3b4.jpg?quality=70&strip=info&w=1024",
     titulo: "Inteligência Artificial para Empreendedores",
     subtitulo: "Aproveitando o poder da IA nos negócios",
     descricao:
@@ -313,7 +302,7 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/homem-negocios-dirigindo-carro-corrida_53876-109482.jpg",
+      "https://financeone.com.br/wp-content/uploads/2017/12/eventos-empreendedorismo-imagem-pixabay.jpg",
     titulo: "Economia Gig e Empreendedorismo",
     subtitulo: "Como se tornar um empreendedor na economia gig",
     descricao: "Explore as oportunidades de empreendedorismo na economia gig.",
@@ -326,7 +315,7 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/mulher-tocando-paineis-solares_53876-126224.jpg",
+      "https://mapa-da-obra-producao.s3.amazonaws.com/wp-content/uploads/2019/10/shutterstock_1110036392.png",
     titulo: "Empreendedorismo Ecológico e Tecnologia",
     subtitulo: "Soluções verdes para empreendedores",
     descricao:
@@ -340,7 +329,7 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/pessoa-de-negocios-com-uma-luz-de-ideia-luz-de-bulbo-conceito-de-criatividade-e-inovacao_31694-636.jpg",
+      "https://blog.fortestecnologia.com.br/wp-content/uploads/2017/11/fortes-tecnologia-inovacao-na-contabilidade-2.jpg",
     titulo: "Empreendedorismo e Inovação Tecnológica",
     subtitulo: "Construindo negócios para o futuro",
     descricao:
@@ -354,7 +343,7 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/parque-de-energia-solar-com-turbinas-eolicas_53876-93546.jpg",
+      "https://www.tendaatacado.com.br/dicas/wp-content/uploads/2021/12/fontes-de-energias-renovaveis-topo.jpg",
     titulo: "Energias Renováveis e Sustentabilidade",
     subtitulo: "O caminho para um futuro mais verde",
     descricao:
@@ -368,7 +357,7 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/agricultor-usando-tecnologia-tablet-com-mulher-trabalhando-na-lavoura_53876-139419.jpg",
+      "https://mappa.ag/wp-content/uploads/2023/02/Agricultura-4.0-na-pra%CC%81tica-X-tecnologias-para-acelerar-resultados-1-scaled.jpg",
     titulo: "Agricultura Sustentável e Tecnologia",
     subtitulo: "Inovações que alimentam o mundo de forma responsável",
     descricao:
@@ -382,7 +371,7 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/homem-trabalhando-no-canteiro-de-obras_53876-25587.jpg",
+      "https://gestao-obra.engwhere.com.br/wp-content/uploads/sites/3/2018/10/meio-ambiente-edificios-verdes.png",
     titulo: "Construção Sustentável e Tecnologia",
     subtitulo: "Edifícios ecológicos para um mundo mais verde",
     descricao: "Explore as inovações na construção sustentável.",
@@ -395,7 +384,7 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/mulher-separando-o-lixo-para-reciclagem_53876-128464.jpg",
+      "https://beegreen.eco.br/wp-content/uploads/2019/05/chega-de-lixo-promova-a-sustentabilidade-tenha-uma-vida-sustentavel-e-diminua-o-impacto-ambiental-com-metodos-ecologicos-1.jpg",
     titulo: "Redução de Resíduos e Tecnologia",
     subtitulo: "Inovações para um planeta com menos lixo",
     descricao:
@@ -409,7 +398,7 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/homem-carregando-bicicleta-eletrica-moderna_53876-148309.jpg",
+      "https://www.zuldigital.com.br/blog/wp-content/uploads/2022/04/shutterstock_1971287231_Easy-Resize.com_.jpg",
     titulo: "Mobilidade Sustentável e Tecnologia",
     subtitulo: "Transformando o transporte urbano",
     descricao: "Explore as inovações na mobilidade urbana sustentável.",
@@ -422,7 +411,7 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/jovem-feliz-posando-em-roupas-sustentaveis_53876-41419.jpg",
+      "https://static.portaldaindustria.com.br/portaldaindustria/noticias/media/imagem_plugin/coleoquereaproveitaretalhosdejeansfoiexpostaduranteapalestra.jpg",
     titulo: "Moda Sustentável e Tecnologia",
     subtitulo: "Estilo consciente para um futuro melhor",
     descricao:
@@ -450,7 +439,7 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/robos-humanoides-computador-futurista-inteligencia-artificial-ou-robo-assistente-realista_39422-1193.jpg",
+      "https://www.naoviu.com.br/wp-content/uploads/2023/07/Design-sem-nome-39-1080x815.png",
     titulo: "A Revolução da Inteligência Artificial (IA)",
     subtitulo: "Mudando o mundo, um algoritmo de cada vez",
     descricao: "Explore o impacto da IA na tecnologia e na sociedade.",
@@ -459,7 +448,7 @@ const artigos = [
     textocomplementar:
       "No campo 'texto-complementar', você encontrará exemplos de aplicativos da IA, considerações éticas relacionadas à IA e insights sobre o futuro da inteligência artificial.",
     data: "08/07/2023",
-    categoria: "-Tecnologia",
+    categoria: "Tecnologia",
   },
   {
     imagem:
