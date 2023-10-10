@@ -116,6 +116,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de empresas que estão liderando o caminho na RV, insights sobre o uso da RV na medicina e dicas para escolher o melhor headset de RV.",
     data: "20/04/2023",
     categoria: "Tecnologia",
+    link: "#",
   },
   {
     imagem:
@@ -130,6 +131,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará informações detalhadas sobre os setores que estão adotando a robótica avançada, exemplos de aplicações práticas e uma visão geral das tendências futuras que moldarão o campo da robótica.",
     data: "12/11/2023",
     categoria: "Tecnologia",
+    link: "#",
   },
   {
     imagem:
@@ -144,6 +146,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará informações detalhadas sobre ferramentas e estratégias de cibersegurança, estudos de casos de violações de dados e dicas práticas para fortalecer a segurança online.",
     data: "08/09/2023",
     categoria: "Tecnologia",
+    link: "#",
   },
   {
     imagem:
@@ -158,6 +161,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará informações sobre tecnologia blockchain, dicas de segurança para armazenar criptomoedas e análises de tendências recentes no mercado de criptomoedas.",
     data: "03/07/2023",
     categoria: "Tecnologia",
+    link: "#",
   },
   {
     imagem:
@@ -173,6 +177,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de aplicativos da IoT em diferentes indústrias, recursos para entender melhor a IoT e considerações de segurança relacionadas à conectividade.",
     data: "20/03/2023",
     categoria: "Tecnologia",
+    link: "#",
   },
   {
     imagem:
@@ -188,6 +193,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de aplicativos e recursos relacionados ao bem-estar mental, dicas para o equilíbrio entre o tempo online e offline, e informações sobre como buscar ajuda quando necessário.",
     data: "10/08/2023",
     categoria: "Saúde",
+    link: "#",
   },
   {
     imagem:
@@ -201,6 +207,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de sistemas de IA em diagnóstico médico, discussões sobre a ética da IA na medicina e previsões para o futuro da assistência médica com IA.",
     data: "02/11/2023",
     categoria: "Saúde",
+    link: "#",
   },
   {
     imagem:
@@ -215,6 +222,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará estudos de casos de sucesso da IA na medicina, informações sobre ética em IA médica e previsões para o futuro da saúde baseada em IA.",
     data: "11/12/2023",
     categoria: "Saúde",
+    link: "#",
   },
   {
     imagem:
@@ -229,6 +237,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de plataformas de telemedicina líderes, dicas para pacientes e médicos e discussões sobre regulamentações e desafios da telemedicina.",
     data: "05/02/2023",
     categoria: "Saúde",
+    link: "#",
   },
   {
     imagem:
@@ -243,6 +252,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará análises de diferentes tipos de wearables, dicas para maximizar o uso desses dispositivos e exemplos de histórias de sucesso de indivíduos que transformaram suas vidas com a ajuda de wearables.",
     data: "19/08/2023",
     categoria: "Saúde",
+    link: "#",
   },
 
   {
@@ -258,6 +268,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de aplicações práticas de nanotecnologia na medicina, como sistemas de liberação controlada de medicamentos, diagnósticos avançados e nanorrobôs para intervenções médicas. Além disso, discutimos os desafios éticos e regulatórios associados à nanotecnologia médica.",
     data: "18/01/2023",
     categoria: "Saúde",
+    link: "#",
   },
   {
     imagem: "https://abstartups.com.br/wp-content/uploads/2018/02/ink-1.png",
@@ -271,6 +282,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de startups de sucesso, insights de empreendedores de destaque e dicas para garantir o sucesso de sua própria startup de tecnologia.",
     data: "10/04/2023",
     categoria: "Empreendedorismo",
+    link: "#",
   },
   {
     imagem:
@@ -285,6 +297,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de startups que utilizam blockchain, informações sobre as implicações legais e de segurança do blockchain e como se preparar para uma carreira empreendedora baseada em blockchain.",
     data: "28/06/2023",
     categoria: "Empreendedorismo",
+    link: "#",
   },
   {
     imagem:
@@ -299,6 +312,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de startups que incorporam IA em seus modelos de negócios, recursos para aprender mais sobre IA e dicas para implementar a IA em sua empresa.",
     data: "15/09/2023",
     categoria: "Empreendedorismo",
+    link: "#",
   },
   {
     imagem:
@@ -312,6 +326,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará dicas para identificar oportunidades na economia gig, ferramentas úteis para empreendedores independentes e histórias inspiradoras de empreendedores de sucesso na economia gig.",
     data: "03/12/2023",
     categoria: "Empreendedorismo",
+    link: "#",
   },
   {
     imagem:
@@ -326,6 +341,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de startups ecológicas de sucesso, recursos para empreendedorismo sustentável e informações sobre como medir o impacto ambiental de seu negócio.",
     data: "22/05/2023",
     categoria: "Empreendedorismo",
+    link: "#",
   },
   {
     imagem:
@@ -340,6 +356,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de startups inovadoras, recursos para empreendedores que desejam abraçar a tecnologia e dicas para identificar oportunidades de negócios no mundo digital.",
     data: "04/12/2023",
     categoria: "Empreendedorismo",
+    link: "#",
   },
   {
     imagem:
@@ -354,6 +371,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de projetos de energia renovável, recursos para reduzir seu consumo de energia e informações sobre como apoiar a transição para uma matriz energética mais sustentável.",
     data: "09/02/2023",
     categoria: "Sustentabilidade",
+    link: "#",
   },
   {
     imagem:
@@ -368,6 +386,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de fazendas sustentáveis, ferramentas para agricultores, e dicas sobre como apoiar a agricultura local e sustentável.",
     data: "17/07/2023",
     categoria: "Sustentabilidade",
+    link: "#",
   },
   {
     imagem:
@@ -381,6 +400,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de edifícios sustentáveis icônicos, recursos para projetos de construção e informações sobre certificações ambientais.",
     data: "05/11/2023",
     categoria: "Sustentabilidade",
+    link: "#",
   },
   {
     imagem:
@@ -395,6 +415,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de inovações de redução de resíduos, dicas para adotar um estilo de vida sustentável e informações sobre como apoiar a reciclagem local.",
     data: "12/04/2023",
     categoria: "Sustentabilidade",
+    link: "#",
   },
   {
     imagem:
@@ -408,6 +429,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de cidades com sistemas de transporte sustentável eficazes, recursos para adotar alternativas de mobilidade verde e informações sobre políticas de transporte sustentável.",
     data: "30/09/2023",
     categoria: "Sustentabilidade",
+    link: "#",
   },
   {
     imagem:
@@ -422,6 +444,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de marcas de moda sustentável, dicas para construir um guarda-roupa consciente e informações sobre o impacto ambiental da indústria da moda.",
     data: "18/01/2023",
     categoria: "Sustentabilidade",
+    link: "#",
   },
   {
     imagem:
@@ -436,6 +459,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará informações sobre incentivos governamentais para energia solar, dicas para instalação de painéis solares e histórias de sucesso de empresas que adotaram a energia solar.",
     data: "14/11/2023",
     categoria: "-Sustentabilidade",
+    link: "#",
   },
   {
     imagem:
@@ -449,6 +473,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de aplicativos da IA, considerações éticas relacionadas à IA e insights sobre o futuro da inteligência artificial.",
     data: "08/07/2023",
     categoria: "Tecnologia",
+    link: "#",
   },
   {
     imagem:
@@ -463,6 +488,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de aplicativos e recursos relacionados ao bem-estar mental, dicas para o equilíbrio entre o tempo online e offline, e informações sobre como buscar ajuda quando necessário.",
     data: "10/08/2023",
     categoria: "-Saúde",
+    link: "#",
   },
   {
     imagem:
@@ -477,6 +503,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará dicas para empreendedores que desejam criar uma startup de tecnologia, histórias inspiradoras de startups de sucesso e insights sobre o ecossistema de inovação.",
     data: "22/02/2023",
     categoria: "-Empreendedorismo",
+    link: "#",
   },
   {
     imagem:
@@ -491,6 +518,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de inovações agrícolas, recursos para agricultores interessados em tecnologia e informações sobre como a agricultura sustentável pode ajudar a combater a mudança climática.",
     data: "05/04/2023",
     categoria: "-Sustentabilidade",
+    link: "#",
   },
   {
     imagem:
@@ -505,6 +533,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de plataformas de telemedicina, dicas para pacientes que utilizam esse serviço e insights sobre como a telemedicina está moldando o futuro dos cuidados de saúde.",
     data: "30/09/2023",
     categoria: "-Saúde",
+    link: "#",
   },
   {
     imagem:
@@ -519,6 +548,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará dicas para iniciar um negócio de comércio eletrônico, estratégias de marketing digital eficazes e histórias inspiradoras de empreendedores do e-commerce.",
     data: "18/12/2023",
     categoria: "-Empreendedorismo",
+    link: "#",
   },
 ];
 
