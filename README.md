@@ -7,7 +7,7 @@
 <div align="center">
 
  Aqui você encontra artigos sobre Tecnologia, Sustentabilidade, Saúde e Empreendedorismo
- <h1><strong><a href="https://delisg.github.io/blog-technology/" style="color: green;">➥ 👀 Demo</a></strong></h1>
+ <h1  style="color: green;"><strong><a href="https://delisg.github.io/blog-technology/">➥ 👀 Demo</a></strong></h1>
 
 <img src="/assets/images/blog.png" alt="demo blog">
 
