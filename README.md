@@ -4,14 +4,16 @@
 [![Status: Em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-darkgreen)](#)
 
 
-<div align="center">
+<<div align="center">
 
- Aqui você encontra artigos sobre Tecnologia, Sustentabilidade, Saúde e Empreendedorismo
- <h1  style="color: green; text-decoration: none;"><strong><a href="https://delisg.github.io/blog-technology/">➥ 👀 Demo</a></strong></h1>
+# Aqui você encontra artigos sobre Tecnologia, Sustentabilidade, Saúde e Empreendedorismo
 
-<img src="/assets/images/blog.png" alt="demo blog">
+<a href="https://delisg.github.io/blog-technology/"><h1 style="color: green; text-decoration: none;"><strong>➥ 👀 Demo</strong></h1></a>
+
+<img src="/assets/images/blog.png" alt="demo blog" style="border: 2px solid gray;">
 
 </div>
+
 
 Explore um mundo de conhecimento e descubra as últimas tendências e inovações em quatro áreas fundamentais: Tecnologia, Sustentabilidade, Saúde e Empreendedorismo. Nosso blog é uma fonte confiável de informações, apresentando uma ampla variedade de artigos atualizados regularmente, todos cuidadosamente selecionados para manter você informado e inspirado.
 
