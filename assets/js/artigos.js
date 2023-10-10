@@ -24,11 +24,11 @@ verMaisBtn.addEventListener("click", function () {
     conteudoSecundario.style.display = "block"; // Torna o conteúdo visível
   }
 });
-
+// não utilizada no momento
 function criarCard(imagem, texto) {
   var cardHTML = `
             <div class="row mt-5">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 card rounded-3 elevacao div-artigo">
                         <div
                             class="card rounded-3 elevacao bg-light text-dark div-artigo">
                             <div class="card-body card-artigo">
@@ -37,7 +37,7 @@ function criarCard(imagem, texto) {
                             <p class="card-header text-center">Lorem ipsum dolor
                                 sit
                                 amet,
-                                consectetur adipisicing elit </p>
+                                consectetur adipisicing elit DELIS </p>
                         </div>
                     </div>
                     <div class="col-lg-4">
