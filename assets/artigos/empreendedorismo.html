@@ -43,7 +43,7 @@
     </head>
     <body>
        <header class="bg-light">
-            <nav class="navbar px-5 navbar-expand-sm navbar-light">
+            <nav class="navbar px-5 navbar-expand-lg navbar-light">
                 <div class="container-fluid">
 
                     <a class="navbar-brand m-0" href="../../index.html"><img
@@ -75,7 +75,7 @@
         <main>
 
             <!-- cards -->
-            <div id="cards" class="container-fluid">
+            <div id="cards" class="container">
                 <div class="row row-col gap-0 container" id="cardsContainer1">
 
                     <!-- <div class="container ">
@@ -182,7 +182,7 @@
 
             artigosMarketing.forEach(artigo => {
                 const card = document.createElement('div');
-                card.classList.add('col-md-4', 'd-flex', 'mb-4');
+                card.classList.add('col-lg-4','col-md-6', 'd-flex', 'mb-4');
 
                 card.innerHTML = `
                 <div class="card rounded-3 elevacao div-artigo">
