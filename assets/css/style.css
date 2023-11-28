@@ -1,6 +1,6 @@
 
 main {
-  margin-top: 60px;
+  /* margin-top: 60px; */
   background-color: #fbfcfd;
 }
 
@@ -159,17 +159,33 @@ nav {
 /* seachbar */
 
 #seachbar {
-  margin-top: 140px;
+  padding-top: 140px;
 }
 
 #seachbar input {
   background-color: #eeeeee;
 }
 
-@media (max-width: 1268px) {
-  #seachbar {
-    margin-top: -20px;
-    padding: 0px 30px;
+@media (max-width: 1068px) {
+  #seachbar{
+    padding-top: 40px;
+    /* padding: 0px 30px; */
+  }
+  #artigos-ver-mais{
+    padding-top: 40px;
+    /* padding: 0px 30px; */
+  }
+}
+
+@media (min-width: 1068px) {
+
+  #artigos-ver-mais{
+    padding-top: 140px;
+    /* padding: 0px 30px; */
+  }
+   #cardsContainer1{
+    padding-top: 40px;
+    /* padding: 0px 30px; */
   }
 }
 
@@ -198,9 +214,7 @@ nav {
   transition: transform 0.3s ease;
 }
 
-#cards {
-  padding: 5% 7%;
-  background-color: #fff;
+#cards { padding-top: 120px;
 
   /* font-family: "Montserrat", sans-serif;   */
   /* margin: 20px 0px; */
