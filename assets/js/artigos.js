@@ -37,7 +37,7 @@ function criarCard(imagem, texto) {
                             <p class="card-header text-center">Lorem ipsum dolor
                                 sit
                                 amet,
-                                consectetur adipisicing elit DELIS </p>
+                                consectetur adipisicing elit </p>
                         </div>
                     </div>
                     <div class="col-lg-4">

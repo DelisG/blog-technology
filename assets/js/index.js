@@ -41,7 +41,7 @@ function criarCard(imagem, texto) {
                             <h4>Energia Solar e Sustentabilidade</h4>
                             <p class="py-2">Descubra como a energia solar está impulsionando a sustentabilidade.</p>
                             <a
-                                href="#"
+                                href="/artigo.html?titulo=Energia%20Solar%20e%20Sustentabilidade"
                                 class="text-decoration-none">Ver mais</a>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ function criarCard(imagem, texto) {
                             <h4>A Revolução da Inteligência Artificial (IA)</h4>
                             <p class="py-2">Explore o impacto da IA na tecnologia e na sociedade.</p>
                             <a
-                                href="#"
+                                href="/artigo.html?titulo=A%20Revolução%20da%20Inteligência%20Artificial%20(IA)"
                                 class="text-decoration-none">Ver mais</a>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ function criarCard(imagem, texto) {
                             <h4>Telemedicina e o Futuro da Saúde</h4>
                             <p class="py-2">Explore como a telemedicina está revolucionando o setor de saúde.</p>
                             <a
-                                href="https://Saúderecife.com/artigo.html?titulo=Estrat%C3%A9gias%20de%20Redes%20Sociais"
+                                href="/artigo.html?titulo=Telemedicina%20e%20o%20Futuro%20da%20Saúde"
                                 class="text-decoration-none">Ver mais</a>
                         </div>
                     </div>
@@ -111,9 +111,9 @@ const artigos = [
     descricao:
       "Descubra as últimas inovações em realidade virtual e como ela está transformando a forma como interagimos com o mundo digital.",
     texto:
-      "A realidade virtual (RV) está mudando a maneira como experimentamos e interagimos com o mundo digital. Neste artigo, mergulhamos nas últimas inovações em RV, desde jogos imersivos até aplicações educacionais. Saiba como a RV está sendo usada em diversos setores, incluindo entretenimento, medicina e treinamento corporativo. Prepare-se para uma viagem emocionante ao futuro da tecnologia de RV.",
+      "À medida que avançamos para um cenário cada vez mais tecnológico, a Realidade Virtual está moldando não apenas o entretenimento, mas também a educação, o treinamento profissional e até mesmo a assistência médica. Imagine aprender sobre civilizações antigas explorando virtualmente sítios arqueológicos, ou realizar simulações médicas complexas sem riscos para pacientes - a RV abre portas para possibilidades antes inimagináveis.",
     textocomplementar:
-      "No campo 'texto-complementar', você encontrará exemplos de empresas que estão liderando o caminho na RV, insights sobre o uso da RV na medicina e dicas para escolher o melhor headset de RV.",
+      "O Futuro da Automação e Inteligência Artificial, ressalta a proeminência dessas tecnologias emergentes. À medida que nos aprofundamos nesse futuro entrelaçado, vislumbramos não apenas a eficiência operacional aprimorada, mas também desafios éticos e sociais. A busca por um equilíbrio entre o avanço tecnológico e as considerações humanitárias torna-se crucial, lançando luz sobre as decisões éticas que orientarão o desenvolvimento contínuo da Robótica Avançada. Em resumo, a Robótica Avançada não é meramente uma expressão de automação; é um convite para explorar os limites do conhecimento humano e da engenhosidade tecnológica, definindo uma narrativa que transformará a maneira como vivemos, trabalhamos e interagimos com o mundo ao nosso redor.",
     data: "20/04/2023",
     categoria: "Tecnologia",
     link: "#",
@@ -126,9 +126,9 @@ const artigos = [
     descricao:
       "Explore o mundo da robótica avançada e descubra como a IA está moldando o futuro da automação.",
     texto:
-      "A robótica avançada está revolucionando a maneira como realizamos tarefas em todos os setores, desde manufatura até assistência médica. Este artigo explora os avanços mais recentes em robótica e como a inteligência artificial está desempenhando um papel fundamental nesse campo em constante evolução. Descubra como robôs autônomos, aprendizado de máquina e visão computacional estão transformando nossa sociedade.",
+      "No cenário dinâmico e em constante evolução da tecnologia, a Robótica Avançada emerge como uma promissora fronteira, delineando o curso do futuro na automação e inteligência artificial. Este domínio tecnológico transcende as barreiras convencionais, explorando a interseção intrincada entre máquinas e inteligência, promovendo avanços revolucionários que moldarão as bases da sociedade moderna.",
     textocomplementar:
-      "No campo 'texto-complementar', você encontrará informações detalhadas sobre os setores que estão adotando a robótica avançada, exemplos de aplicações práticas e uma visão geral das tendências futuras que moldarão o campo da robótica.",
+      "À medida que nos aventuramos nesse reino de inovação, testemunhamos a ascensão de máquinas dotadas de capacidades cognitivas avançadas, capazes de processar informações de maneira similar ou até superior à mente humana. A Robótica Avançada não apenas automatiza tarefas rotineiras, mas também desencadeia uma revolução na tomada de decisões complexas, transformando setores inteiros, desde a manufatura até a medicina e a exploração espacial.",
     data: "12/11/2023",
     categoria: "Tecnologia",
     link: "#",
@@ -141,9 +141,9 @@ const artigos = [
     descricao:
       "Explore as últimas tendências em cibersegurança e saiba como proteger seus dados.",
     texto:
-      "Com a crescente dependência da tecnologia, a cibersegurança se tornou essencial. Neste artigo, analisamos as últimas tendências em segurança cibernética, desde ameaças emergentes até as melhores práticas para proteger seus dados e sistemas. Descubra como empresas e indivíduos podem se manter seguros em um mundo digital em constante evolução.",
+      "A Robótica Avançada representa a vanguarda da revolução tecnológica, mergulhando-nos em um mundo onde a automação e a inteligência artificial convergem para redefinir a maneira como interagimos com a tecnologia. Nesse cenário, robôs não são apenas máquinas programadas, mas agentes autônomos capazes de aprender e se adaptar, transformando setores industriais e proporcionando avanços notáveis em diversas áreas.",
     textocomplementar:
-      "No campo 'texto-complementar', você encontrará informações detalhadas sobre ferramentas e estratégias de cibersegurança, estudos de casos de violações de dados e dicas práticas para fortalecer a segurança online.",
+      "O futuro da automação e inteligência artificial se desenha como uma sinfonia perfeita entre inovação e eficiência. Essa evolução da Robótica Avançada promete não apenas otimizar tarefas rotineiras, mas também impulsionar descobertas científicas, aprimorar a medicina e, acima de tudo, moldar uma sociedade onde a interação entre humanos e máquinas é sinônimo de progresso e possibilidades infinitas.",
     data: "08/09/2023",
     categoria: "Tecnologia",
     link: "#",
@@ -156,9 +156,9 @@ const artigos = [
     descricao:
       "Explore o universo das criptomoedas, incluindo Bitcoin, Ethereum e muito mais.",
     texto:
-      "As criptomoedas estão cada vez mais presentes no cenário financeiro global. Neste artigo, analisamos as principais moedas digitais, como Bitcoin e Ethereum, e explicamos como elas funcionam. Descubra as oportunidades e desafios de investir em criptomoedas e como elas estão moldando o futuro das finanças.",
+      "No cenário financeiro atual, as criptomoedas têm se destacado como protagonistas, redefineindo a forma como entendemos e lidamos com o dinheiro. Sob o subtitulo O mundo das moedas digitais, adentramos em um universo onde transações ocorrem instantaneamente, sem a necessidade de intermediários tradicionais. Essas moedas virtuais, baseadas em tecnologia de blockchain, oferecem não apenas eficiência, mas também uma visão futurista do sistema econômico global",
     textocomplementar:
-      "No campo 'texto-complementar', você encontrará informações sobre tecnologia blockchain, dicas de segurança para armazenar criptomoedas e análises de tendências recentes no mercado de criptomoedas.",
+      "Em um ecossistema descentralizado, as criptomoedas não estão vinculadas a nenhum governo ou instituição central, conferindo aos usuários uma liberdade financeira inédita. No entanto, essa revolução monetária não se limita apenas à questão da autonomia; ela propõe uma redefinição completa de como concebemos e conduzimos transações financeiras. Ao explorar Criptomoedas em Destaque, mergulhamos em um universo onde a confiança é estabelecida pela criptografia e a inovação não conhece limites. O futuro das finanças parece agora mais vibrante do que nunca.",
     data: "03/07/2023",
     categoria: "Tecnologia",
     link: "#",
@@ -172,9 +172,9 @@ const artigos = [
     descricao:
       "Explore como a Internet das Coisas está transformando nosso mundo tecnológico.",
     texto:
-      "A Internet das Coisas (IoT) tem sido uma das maiores revoluções tecnológicas da última década. Neste artigo, investigamos como os dispositivos conectados estão mudando nossa vida cotidiana e setores inteiros, desde a saúde até a indústria. Descubra os benefícios e desafios da IoT e como essa tecnologia está moldando nosso futuro digital.",
+      "A emergência da Internet das Coisas (IoT) marca uma revolução notável no cenário tecnológico global. Este paradigma inovador transcende as fronteiras convencionais da conectividade, desdobrando-se como uma teia inteligente que interliga dispositivos e sistemas. A IoT, com sua capacidade de coletar, analisar e transmitir dados em tempo real, está transformando não apenas a forma como interagimos com a tecnologia, mas também a maneira como o mundo ao nosso redor opera.",
     textocomplementar:
-      "No campo 'texto-complementar', você encontrará exemplos de aplicativos da IoT em diferentes indústrias, recursos para entender melhor a IoT e considerações de segurança relacionadas à conectividade.",
+      "No epicentro dessa revolução conectada, o subtítulo A revolução conectada ressoa com a essência transformadora da IoT. Esta revolução não se trata apenas de dispositivos interligados, mas sim de uma nova era em que a tecnologia se torna uma extensão intrínseca de nossas vidas. À medida que a conectividade se infiltra em setores que antes eram independentes, testemunhamos uma metamorfose digital que transcende as barreiras tradicionais. A revolução conectada é mais do que uma simples evolução tecnológica; é um fenômeno que redefine a maneira como vivemos, trabalhamos e nos relacionamos com o mundo ao nosso redor. Nesse novo paradigma, a interconexão não é apenas uma comodidade, mas sim um catalisador que impulsiona a inovação, abre portas para novas possibilidades e nos orienta rumo a um futuro onde a tecnologia não é apenas uma ferramenta, mas sim uma experiência integrada e significativa",
     data: "20/03/2023",
     categoria: "Tecnologia",
     link: "#",
@@ -448,7 +448,7 @@ const artigos = [
   },
   {
     imagem:
-      "https://img.freepik.com/fotos-gratis/instalacao-de-paineis-solares-em-um-telhado_53876-18517.jpg",
+      "https://blog.bluesol.com.br/wp-content/uploads/2017/08/5-Raz%C3%B5es-Porque-a-Energia-Solar-%C3%89-De-Fato-Sustent%C3%A1vel.jpg",
     titulo: "Energia Solar e Sustentabilidade",
     subtitulo: "A revolução energética verde",
     descricao:
