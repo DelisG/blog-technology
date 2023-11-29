@@ -84,16 +84,14 @@
 
                                 <div>
                                     <h3><strong class="pt-5" id="titulo"></strong></h3>
+                                    <p id="texto"></p>
                                     <img
                                         src
                                         alt="Imagem" id="imagem" class="p-3 img-fluid"
                                         style="width: 100%;">
-                                </div>
-
-                                <div>
-                                    <h5 id="subtitulo"></h5>
-                                    <p id="descricao"></p>
-                                    <p id="texto"></p>
+                                
+                                    <h4 class="" id="subtitulo"></h4>
+                                    <p id="textocomplementar"></p>
                                 </div>
 
                                 <!-- <div>
@@ -104,9 +102,9 @@
                                         style="width: 100%; height: 500px;">
                                 </div> -->
 
-                                <div>
+                                <!-- <div>
                                     <p id="textocomplementar"></p>
-                                </div>
+                                </div> -->
 
                                 <p class="category" id="categoria">Categoria</p>
                                 <div
@@ -210,14 +208,14 @@
             document.getElementById('imagem').src = artigo.imagem;
             document.getElementById('titulo').textContent = artigo.titulo;
             document.getElementById('subtitulo').textContent = artigo.subtitulo;
-            document.getElementById('descricao').textContent = artigo.descricao;
+            // document.getElementById('descricao').textContent = artigo.descricao;
             document.getElementById('texto').textContent = artigo.texto;
             document.getElementById('categoria').textContent = artigo.categoria;
-            document.getElementById('imagem2').src = artigo.imagem2;
+            // document.getElementById('imagem2').src = artigo.imagem2;
             document.getElementById('textocomplementar').textContent = artigo.textocomplementar;
 
 
-            document.getElementById('data').textContent = "Data: " + artigo.data; // Adicione "Data: " antes da data
+            document.getElementById('data').textContent = "Postado em: " + artigo.data; // Adicione "Data: " antes da data
         } else {
             // Artigo não encontrado
             alert('Artigo não encontrado.');
