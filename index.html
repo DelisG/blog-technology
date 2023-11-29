@@ -103,7 +103,7 @@
                         align-items-center">
                         <div class="row">
 
-                            <div
+                            <div id="artigosContainer"
                                 class="col-lg-6 position-relative d-inline-block">
                                 <div class="card elevacao">
 
@@ -130,19 +130,19 @@
                                 <h2><strong>Mais Pesquisados</strong></h2>
                                 <div class="card-top-artigos elevacao">
                                     <a
-                                        href="#"
-                                        class="text-decoration-none">
+                                        href="javascript:void(0);"
+                                        class="text-decoration-none"
+                                        onclick="redirecionarParaArtigo('Bem-Estar Mental e Tecnologia na Era Digital')">
                                         <h5><strong>Bem-Estar Mental e
                                                 Tecnologia na Era Digital</strong></h5>
-                                        <p>Explore como a tecnologia pode ser
-                                            usada para melhorar o bem-estar
-                                            mental.</p>
+                                        <p>Descubra como a tecnologia impacta o
+                                            bem-estar mental na era digital.</p>
                                     </a>
                                 </div>
 
                                 <div class="card-top-artigos elevacao">
                                     <a
-                                        href="#"
+                                        href="/artigo.html?titulo=Moda%20Sustentável%20e%20Tecnologia"
                                         class="text-decoration-none">
                                         <h5><strong>Moda Sustentável e
                                                 Tecnologia</strong></h5>
@@ -153,7 +153,8 @@
 
                                 <div class="card-top-artigos elevacao">
                                     <a
-                                        href="#" class="text-decoration-none">
+                                        href="/artigo.html?titulo=Agricultura%20Sustentável%20e%20Tecnologia"
+                                        class="text-decoration-none">
                                         <h5><strong>Agricultura Sustentável e
                                                 Tecnologia</strong></h5>
                                         <p>Descubra como a tecnologia está
@@ -163,9 +164,10 @@
                                 </div>
                                 <div class="card-top-artigos elevacao">
                                     <a
-                                        href="#" class="text-decoration-none">
-                                        <h5><strong>Soluções verdes para
-                                                empreendedores</strong></h5>
+                                        href="/artigo.html?titulo=Empreendedorismo%20Ecológico%20e%20Tecnologia"
+                                        class="text-decoration-none">
+                                        <h5><strong>Empreendedorismo Ecológico e
+                                                Tecnologia</strong></h5>
                                         <p>Descubra como a tecnologia está
                                             impulsionando o empreendedorismo
                                             sustentável.</p>
@@ -183,58 +185,70 @@
             <div id="cards" class="container pb-5">
                 <div class="row row-col flex-wrap gap-3">
                     <div
-                        class=" col-lg-4 col-md-6 card rounded-3 elevacao div-artigo">
-                        <div class="card-body card-artigo">
-                            <img
-                                src="https://www.axiomab2b.com/wp-content/uploads/E-COMMERCE.jpg">
-                            <p class="category">Empreendedorismo</p>
+                        class="col-md-4 col-sm-6 card rounded-3 elevacao div-artigo">
+                        <div class="m-0">
 
-                        </div>
+                            <div class="card-body card-artigo">
+                                <img
+                                    src="https://www.axiomab2b.com/wp-content/uploads/E-COMMERCE.jpg">
+                                <p class="category">Empreendedorismo</p>
 
-                        <div class="p-4">
-                            <h4>Empreendedorismo no E-commerce</h4>
-                            <p class="py-2">Descubra como empreendedores estão
-                                prosperando no comércio eletrônico.</p>
-                            <a
-                                href="#"
-                                class="text-decoration-none">Ver mais</a>
-                        </div>
-                    </div>
-                    <div
-                        class=" col-lg-4 col-md-6 card rounded-3 elevacao div-artigo">
-                        <div class="card-body card-artigo">
-                            <img
-                                src="https://www.sambiental.com.br/sites/default/files/2021-08/energia_3.jpg">
-                            <p class="category">Tecnologia</p>
+                            </div>
 
-                        </div>
-
-                        <div class="p-4">
-                            <h4>Energia Renovável e Sustentabilidade Tecnológica</h4>
-                            <p class="py-2">Explore como a tecnologia está
-                                impulsionando a transição para fontes de energia
-                                renovável.</p>
-                            <a
-                                href="#"
-                                class="text-decoration-none">Ver mais</a>
+                            <div class="p-4">
+                                <h4>Empreendedorismo no E-commerce</h4>
+                                <p class="py-2">Descubra como empreendedores
+                                    estão
+                                    prosperando no comércio eletrônico.</p>
+                                <a
+                                    href="/artigo.html?titulo=Empreendedorismo%20no%20E-commerce"
+                                    class="text-decoration-none">Ver mais</a>
+                            </div>
                         </div>
                     </div>
                     <div
-                        class=" col-lg-4 col-md-6 card rounded-3 elevacao div-artigo">
-                        <div class="card-body card-artigo">
-                            <img
-                                src="https://www.pucrs.br/print-pt/wp-content/uploads/sites/225/2019/02/theme31280x470-1280x470.jpg">
-                            <p class="category">Sustentabilidade</p>
+                        class="col-md-4 col-sm-6 card rounded-3 elevacao div-artigo">
+                        <div class="m-0">
 
+                            <div class="card-body card-artigo">
+                                <img
+                                    src="https://www.sambiental.com.br/sites/default/files/2021-08/energia_3.jpg">
+                                <p class="category">Tecnologia</p>
+
+                            </div>
+
+                            <div class="p-4">
+                                <h4>Energia Renovável e Sustentabilidade
+                                    Tecnológica</h4>
+                                <p class="py-2">Explore como a tecnologia está
+                                    impulsionando a transição para fontes de
+                                    energia
+                                    renovável.</p>
+                                <a
+                                    href="/artigo.html?titulo=Energias%20Renováveis%20e%20Sustentabilidade"
+                                    class="text-decoration-none">Ver mais</a>
+                            </div>
                         </div>
+                    </div>
+                    <div
+                        class="col-md-4 col-sm-6 card rounded-3 elevacao div-artigo">
+                        <div class="m-0">
 
-                        <div class="p-4">
-                            <h4>Tecnologia na Conservação da Biodiversidade</h4>
-                            <p class="py-2">Saiba como a tecnologia está sendo
-                                usada para proteger a diversidade biológica.</p>
-                            <a
-                                href="#"
-                                class="text-decoration-none">Ver mais</a>
+                            <div class="card-body card-artigo">
+                                <img
+                                    src="https://www.pucrs.br/print-pt/wp-content/uploads/sites/225/2019/02/theme31280x470-1280x470.jpg">
+                                <p class="category">Sustentabilidade</p>
+
+                            </div>
+
+                            <div class="p-4">
+                                <h4>Mobilidade Sustentável e Tecnologia
+                                </h4>
+                                <p class="py-2">Explore as inovações na mobilidade urbana sustentável.</p>
+                                <a
+                                    href="http://127.0.0.1:3000/artigo.html?titulo=Mobilidade%20Sustent%C3%A1vel%20e%20Tecnologia"
+                                    class="text-decoration-none">Ver mais</a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-12">
@@ -328,5 +342,19 @@
         </footer>
 
         <script src="assets/js/index.js"></script>
+        <script>
+            function redirecionarParaArtigo(titulo) {
+            // Codifique o título para torná-lo seguro para URL
+            const tituloCodificado = encodeURIComponent(titulo);
+
+            // Crie a URL com o título codificado
+            const url = `artigos.html?titulo=${tituloCodificado}`;
+
+            // Redirecione para a página de artigos.html
+            window.location.href = url;
+        }
+
+
+       </script>
     </body>
 </html>

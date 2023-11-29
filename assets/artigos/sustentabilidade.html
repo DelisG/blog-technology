@@ -175,36 +175,50 @@
         <script src="../js/index.js"></script>
         <script>
 
-        function renderizarCardsMarketing() {
-            const container = document.getElementById('cardsContainer1');
+        function renderizarCards() {
+                const container = document.getElementById('cardsContainer1');
 
-            const artigosMarketing = artigos.filter(artigo => artigo.categoria === "Sustentabilidade");
+                const artigosMarketing = artigos.filter(artigo => artigo.categoria === "Sustentabilidade");
 
-            artigosMarketing.forEach(artigo => {
-                const card = document.createElement('div');
-                card.classList.add('col-lg-4','col-md-6', 'd-flex', 'mb-4');
+                artigosMarketing.forEach(artigo => {
+                    const card = document.createElement('div');
+                    card.classList.add('col-lg-4','col-md-6', 'd-flex', 'mb-4');
 
-                card.innerHTML = `
-                <div class="card rounded-3 elevacao div-artigo">
-                    <div class="card-body card-artigo">
-                        <img src="${artigo.imagem}">
-                        <p class="category">${artigo.categoria}</p>
-                    </div>
-                    <div class="p-4">
-                        <h4>${artigo.titulo}</h4>
-                        <p class="py-2">${artigo.descricao}</p>
-                        <a href="${artigo.link}" class="text-decoration-none">Ver mais</a>
-                    </div>
-                </div>
+                    card.innerHTML = `
+                        <div class="card rounded-3 elevacao div-artigo">
+                            <div class="card-body card-artigo">
+                                <img src="${artigo.imagem}">
+                                <p class="category">${artigo.categoria}</p>
+                            </div>
+                            <div class="p-4">
+                                <h4>${artigo.titulo}</h4>
+                                <p class="py-2">${artigo.descricao}</p>
+                                <a href="../../artigo.html" class="text-decoration-none" onclick="redirecionarParaArtigo('${artigo.titulo}')">Ver mais</a>
+                            </div>
+                        </div>
+                    `;
 
-                `;
+                    container.appendChild(card);
+                });
+            }
 
-                container.appendChild(card);
-            });
-        }
+            function redirecionarParaArtigo(titulo) {
+                // Encontrar o artigo correspondente pelo título
+                const artigoSelecionado = artigos.find(artigo => artigo.titulo === titulo);
 
-        // Chama a função quando a página carrega
-        window.addEventListener('load', renderizarCardsMarketing);
+                if (artigoSelecionado) {
+                    // Armazenar detalhes do artigo no localStorage
+                    localStorage.setItem('artigoSelecionado', JSON.stringify(artigoSelecionado));
+
+                    // Redirecionar para a página do artigo
+                    window.location.href = '../../artigo.html';
+                } else {
+                    alert('Artigo não encontrado.');
+                }
+            }
+
+            // Chama a função quando a página carrega
+            window.addEventListener('load', renderizarCards);
         </script>
     </body>
 </html>

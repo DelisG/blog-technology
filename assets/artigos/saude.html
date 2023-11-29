@@ -174,71 +174,50 @@
         <!-- <script src="../js/artigos.js"></script> -->
         <script src="../js/index.js"></script>
         <script>
-        function renderizarCardsMarketing() {
-            const container = document.getElementById('cardsContainer1');
+        function renderizarCards() {
+                const container = document.getElementById('cardsContainer1');
 
-            const artigosMarketing = artigos.filter(artigo => artigo.categoria === "Saúde");
+                const artigosMarketing = artigos.filter(artigo => artigo.categoria === "Saúde");
 
-            artigosMarketing.forEach(artigo => {
-                const card = document.createElement('div');
-                card.classList.add('col-lg-4','col-md-6', 'd-flex', 'mb-4');
+                artigosMarketing.forEach(artigo => {
+                    const card = document.createElement('div');
+                    card.classList.add('col-lg-4','col-md-6', 'd-flex', 'mb-4');
 
-                card.innerHTML = `
-                    <div class="card rounded-3 elevacao div-artigo">
-                        <div class="card-body card-artigo">
-                            <img src="${artigo.imagem}">
-                            <p class="category">${artigo.categoria}</p>
+                    card.innerHTML = `
+                        <div class="card rounded-3 elevacao div-artigo">
+                            <div class="card-body card-artigo">
+                                <img src="${artigo.imagem}">
+                                <p class="category">${artigo.categoria}</p>
+                            </div>
+                            <div class="p-4">
+                                <h4>${artigo.titulo}</h4>
+                                <p class="py-2">${artigo.descricao}</p>
+                                <a href="../../artigo.html" class="text-decoration-none" onclick="redirecionarParaArtigo('${artigo.titulo}')">Ver mais</a>
+                            </div>
                         </div>
-                        <div class="p-4">
-                            <h4>${artigo.titulo}</h4>
-                            <p class="py-2">${artigo.descricao}</p>
-                            <a href="javascript:void(0);" class="text-decoration-none" onclick="exibirDetalhesArtigo(${JSON.stringify(artigo)})">Ver mais</a>
-                        </div>
-                    </div>
-                `;
+                    `;
 
-                container.appendChild(card);
-            });
-        }
+                    container.appendChild(card);
+                });
+            }
 
-        function exibirDetalhesArtigo(artigo) {
-            const container = document.getElementById('cardsContainer1');
-            container.innerHTML = '';
+            function redirecionarParaArtigo(titulo) {
+                // Encontrar o artigo correspondente pelo título
+                const artigoSelecionado = artigos.find(artigo => artigo.titulo === titulo);
 
-            const detalhesContainer = document.createElement('div');
-                card.classList.add('col-lg-4','col-md-6', 'd-flex', 'mb-4');
+                if (artigoSelecionado) {
+                    // Armazenar detalhes do artigo no localStorage
+                    localStorage.setItem('artigoSelecionado', JSON.stringify(artigoSelecionado));
 
-            detalhesContainer.innerHTML = `
-                <div>
-                    <h3><strong>${artigo.titulo}</strong></h3>
-                    <img
-                        src="${artigo.imagem1}"
-                        alt="imagem artigo" class="p-3"
-                        style="width: 100%; height: 500px;">
-                </div>
-                
-                <div class="col-md d-flex justify-content-around flex-column p-3">
-                    <h5>${artigo.subtitulo}</h5>
-                    <p>${artigo.descricao}</p>
-                    <p>texto</p>
-                    <div class="artigos-rodape">
-                    
-                    </div>
-                </div>
-                
-                <div class="col-md d-flex justify-content-around flex-column p-3">
-                    <p>${artigo.textocomplementar}</p>
-                    
-                    <div class="">
-                        <p class="font-small">${artigo.data}</p>
-                    </div>
-                </div>
-            `;
+                    // Redirecionar para a página do artigo
+                    window.location.href = '../../artigo.html';
+                } else {
+                    alert('Artigo não encontrado.');
+                }
+            }
 
-            container.appendChild(detalhesContainer);
-        }
-
-        window.addEventListener('load', renderizarCardsMarketing);
+            // Chama a função quando a página carrega
+            window.addEventListener('load', renderizarCards);
 
     </script>
     </body>
