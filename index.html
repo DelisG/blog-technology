@@ -343,18 +343,23 @@
 
         <script src="assets/js/index.js"></script>
         <script>
-           function redirecionarParaArtigo(titulo) {
-            // Codifique o título para torná-lo seguro para URL
-            const tituloCodificado = encodeURIComponent(titulo);
+        function redirecionarParaArtigo(titulo) {
+            // Busque o artigo pelo título no array de artigos
+            const artigo = artigos.find(artigo => artigo.titulo === titulo);
 
-            // Crie a URL com o título codificado
-            const url = `artigo.html?titulo=${tituloCodificado}`;
+            if (artigo) {
+                // Codifique o título para torná-lo seguro para URL
+                const tituloCodificado = encodeURIComponent(titulo);
 
-            // Redirecione para a página de artigos.html
-            window.location.href = url;
+                // Crie a URL com o título codificado
+                const url = `artigos.html?titulo=${tituloCodificado}`;
+
+                // Redirecione para a página de artigos.html
+                window.location.href = url;
+            } else {
+                console.error('Artigo não encontrado.');
+            }
         }
-
-
-       </script>
+    </script>
     </body>
 </html>
