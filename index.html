@@ -344,22 +344,22 @@
         <script src="assets/js/index.js"></script>
         <script>
         function redirecionarParaArtigo(titulo) {
-            // Busque o artigo pelo título no array de artigos
-            const artigo = artigos.find(artigo => artigo.titulo === titulo);
+                if (typeof artigos !== 'undefined') {
+                    const artigo = artigos.find(artigo => artigo.titulo === titulo);
 
-            if (artigo) {
-                // Codifique o título para torná-lo seguro para URL
-                const tituloCodificado = encodeURIComponent(titulo);
+                    if (artigo) {
+                        const tituloCodificado = encodeURIComponent(titulo);
 
-                // Crie a URL com o título codificado
-                const url = `artigo.html?titulo=${tituloCodificado}`;
+                        const url = `artigo.html?titulo=${tituloCodificado}`;
 
-                // Redirecione para a página de artigos.html
-                window.location.href = url;
-            } else {
-                console.error('Artigo não encontrado.');
+                        window.location.href = url;
+                    } else {
+                        console.error('Artigo não encontrado para o título:', titulo);
+                    }
+                } else {
+                    console.error('Array "artigos" não está definido.');
+                }
             }
-        }
-    </script>
+        </script>
     </body>
 </html>
