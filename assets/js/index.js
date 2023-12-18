@@ -116,7 +116,7 @@ const artigos = [
       "O Futuro da Automação e Inteligência Artificial, ressalta a proeminência dessas tecnologias emergentes. À medida que nos aprofundamos nesse futuro entrelaçado, vislumbramos não apenas a eficiência operacional aprimorada, mas também desafios éticos e sociais. A busca por um equilíbrio entre o avanço tecnológico e as considerações humanitárias torna-se crucial, lançando luz sobre as decisões éticas que orientarão o desenvolvimento contínuo da Robótica Avançada. Em resumo, a Robótica Avançada não é meramente uma expressão de automação; é um convite para explorar os limites do conhecimento humano e da engenhosidade tecnológica, definindo uma narrativa que transformará a maneira como vivemos, trabalhamos e interagimos com o mundo ao nosso redor.",
     data: "20/04/2023",
     categoria: "Tecnologia",
-    link: "#",
+    id: "1",
   },
   {
     imagem:
@@ -131,7 +131,7 @@ const artigos = [
       "À medida que nos aventuramos nesse reino de inovação, testemunhamos a ascensão de máquinas dotadas de capacidades cognitivas avançadas, capazes de processar informações de maneira similar ou até superior à mente humana. A Robótica Avançada não apenas automatiza tarefas rotineiras, mas também desencadeia uma revolução na tomada de decisões complexas, transformando setores inteiros, desde a manufatura até a medicina e a exploração espacial.",
     data: "12/11/2023",
     categoria: "Tecnologia",
-    link: "#",
+    id: "2",
   },
   {
     imagem:
@@ -146,7 +146,7 @@ const artigos = [
       "O futuro da automação e inteligência artificial se desenha como uma sinfonia perfeita entre inovação e eficiência. Essa evolução da Robótica Avançada promete não apenas otimizar tarefas rotineiras, mas também impulsionar descobertas científicas, aprimorar a medicina e, acima de tudo, moldar uma sociedade onde a interação entre humanos e máquinas é sinônimo de progresso e possibilidades infinitas.",
     data: "08/09/2023",
     categoria: "Tecnologia",
-    link: "#",
+    id: "3",
   },
   {
     imagem:
@@ -161,7 +161,7 @@ const artigos = [
       "Em um ecossistema descentralizado, as criptomoedas não estão vinculadas a nenhum governo ou instituição central, conferindo aos usuários uma liberdade financeira inédita. No entanto, essa revolução monetária não se limita apenas à questão da autonomia; ela propõe uma redefinição completa de como concebemos e conduzimos transações financeiras. Ao explorar Criptomoedas em Destaque, mergulhamos em um universo onde a confiança é estabelecida pela criptografia e a inovação não conhece limites. O futuro das finanças parece agora mais vibrante do que nunca.",
     data: "03/07/2023",
     categoria: "Tecnologia",
-    link: "#",
+    id: "4",
   },
   {
     imagem:
@@ -177,7 +177,7 @@ const artigos = [
       "No epicentro dessa revolução conectada, o subtítulo A revolução conectada ressoa com a essência transformadora da IoT. Esta revolução não se trata apenas de dispositivos interligados, mas sim de uma nova era em que a tecnologia se torna uma extensão intrínseca de nossas vidas. À medida que a conectividade se infiltra em setores que antes eram independentes, testemunhamos uma metamorfose digital que transcende as barreiras tradicionais. A revolução conectada é mais do que uma simples evolução tecnológica; é um fenômeno que redefine a maneira como vivemos, trabalhamos e nos relacionamos com o mundo ao nosso redor. Nesse novo paradigma, a interconexão não é apenas uma comodidade, mas sim um catalisador que impulsiona a inovação, abre portas para novas possibilidades e nos orienta rumo a um futuro onde a tecnologia não é apenas uma ferramenta, mas sim uma experiência integrada e significativa",
     data: "20/03/2023",
     categoria: "Tecnologia",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -193,7 +193,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de aplicativos e recursos relacionados ao bem-estar mental, dicas para o equilíbrio entre o tempo online e offline, e informações sobre como buscar ajuda quando necessário.",
     data: "10/08/2023",
     categoria: "Saúde",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -207,7 +207,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de sistemas de IA em diagnóstico médico, discussões sobre a ética da IA na medicina e previsões para o futuro da assistência médica com IA.",
     data: "02/11/2023",
     categoria: "Saúde",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -222,7 +222,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará estudos de casos de sucesso da IA na medicina, informações sobre ética em IA médica e previsões para o futuro da saúde baseada em IA.",
     data: "11/12/2023",
     categoria: "Saúde",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -237,7 +237,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de plataformas de telemedicina líderes, dicas para pacientes e médicos e discussões sobre regulamentações e desafios da telemedicina.",
     data: "05/02/2023",
     categoria: "Saúde",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -252,7 +252,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará análises de diferentes tipos de wearables, dicas para maximizar o uso desses dispositivos e exemplos de histórias de sucesso de indivíduos que transformaram suas vidas com a ajuda de wearables.",
     data: "19/08/2023",
     categoria: "Saúde",
-    link: "#",
+    id: "#",
   },
 
   {
@@ -268,7 +268,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de aplicações práticas de nanotecnologia na medicina, como sistemas de liberação controlada de medicamentos, diagnósticos avançados e nanorrobôs para intervenções médicas. Além disso, discutimos os desafios éticos e regulatórios associados à nanotecnologia médica.",
     data: "18/01/2023",
     categoria: "Saúde",
-    link: "#",
+    id: "#",
   },
   {
     imagem: "https://abstartups.com.br/wp-content/uploads/2018/02/ink-1.png",
@@ -282,7 +282,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de startups de sucesso, insights de empreendedores de destaque e dicas para garantir o sucesso de sua própria startup de tecnologia.",
     data: "10/04/2023",
     categoria: "Empreendedorismo",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -297,7 +297,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de startups que utilizam blockchain, informações sobre as implicações legais e de segurança do blockchain e como se preparar para uma carreira empreendedora baseada em blockchain.",
     data: "28/06/2023",
     categoria: "Empreendedorismo",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -312,7 +312,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de startups que incorporam IA em seus modelos de negócios, recursos para aprender mais sobre IA e dicas para implementar a IA em sua empresa.",
     data: "15/09/2023",
     categoria: "Empreendedorismo",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -326,7 +326,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará dicas para identificar oportunidades na economia gig, ferramentas úteis para empreendedores independentes e histórias inspiradoras de empreendedores de sucesso na economia gig.",
     data: "03/12/2023",
     categoria: "Empreendedorismo",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -341,7 +341,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de startups ecológicas de sucesso, recursos para empreendedorismo sustentável e informações sobre como medir o impacto ambiental de seu negócio.",
     data: "22/05/2023",
     categoria: "Empreendedorismo",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -356,7 +356,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de startups inovadoras, recursos para empreendedores que desejam abraçar a tecnologia e dicas para identificar oportunidades de negócios no mundo digital.",
     data: "04/12/2023",
     categoria: "Empreendedorismo",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -371,7 +371,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de projetos de energia renovável, recursos para reduzir seu consumo de energia e informações sobre como apoiar a transição para uma matriz energética mais sustentável.",
     data: "09/02/2023",
     categoria: "Sustentabilidade",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -386,7 +386,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de fazendas sustentáveis, ferramentas para agricultores, e dicas sobre como apoiar a agricultura local e sustentável.",
     data: "17/07/2023",
     categoria: "Sustentabilidade",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -400,7 +400,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de edifícios sustentáveis icônicos, recursos para projetos de construção e informações sobre certificações ambientais.",
     data: "05/11/2023",
     categoria: "Sustentabilidade",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -415,7 +415,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de inovações de redução de resíduos, dicas para adotar um estilo de vida sustentável e informações sobre como apoiar a reciclagem local.",
     data: "12/04/2023",
     categoria: "Sustentabilidade",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -429,7 +429,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de cidades com sistemas de transporte sustentável eficazes, recursos para adotar alternativas de mobilidade verde e informações sobre políticas de transporte sustentável.",
     data: "30/09/2023",
     categoria: "Sustentabilidade",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -444,7 +444,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de marcas de moda sustentável, dicas para construir um guarda-roupa consciente e informações sobre o impacto ambiental da indústria da moda.",
     data: "18/01/2023",
     categoria: "Sustentabilidade",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -459,7 +459,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará informações sobre incentivos governamentais para energia solar, dicas para instalação de painéis solares e histórias de sucesso de empresas que adotaram a energia solar.",
     data: "14/11/2023",
     categoria: "-Sustentabilidade",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -473,7 +473,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de aplicativos da IA, considerações éticas relacionadas à IA e insights sobre o futuro da inteligência artificial.",
     data: "08/07/2023",
     categoria: "Tecnologia",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -488,7 +488,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de aplicativos e recursos relacionados ao bem-estar mental, dicas para o equilíbrio entre o tempo online e offline, e informações sobre como buscar ajuda quando necessário.",
     data: "10/08/2023",
     categoria: "-Saúde",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -503,7 +503,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará dicas para empreendedores que desejam criar uma startup de tecnologia, histórias inspiradoras de startups de sucesso e insights sobre o ecossistema de inovação.",
     data: "22/02/2023",
     categoria: "-Empreendedorismo",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -518,7 +518,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de inovações agrícolas, recursos para agricultores interessados em tecnologia e informações sobre como a agricultura sustentável pode ajudar a combater a mudança climática.",
     data: "05/04/2023",
     categoria: "-Sustentabilidade",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -533,7 +533,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará exemplos de plataformas de telemedicina, dicas para pacientes que utilizam esse serviço e insights sobre como a telemedicina está moldando o futuro dos cuidados de saúde.",
     data: "30/09/2023",
     categoria: "-Saúde",
-    link: "#",
+    id: "#",
   },
   {
     imagem:
@@ -548,7 +548,7 @@ const artigos = [
       "No campo 'texto-complementar', você encontrará dicas para iniciar um negócio de comércio eletrônico, estratégias de marketing digital eficazes e histórias inspiradoras de empreendedores do e-commerce.",
     data: "18/12/2023",
     categoria: "-Empreendedorismo",
-    link: "#",
+    id: "#",
   },
 ];
 
