@@ -200,9 +200,9 @@
                                 <p class="py-2">Descubra como empreendedores
                                     estão
                                     prosperando no comércio eletrônico.</p>
-                                <a
-                                    href="/artigo.html?titulo=Empreendedorismo%20no%20E-commerce"
-                                    class="text-decoration-none">Ver mais</a>
+                                <a href="#" class="text-decoration-none"
+                                    onclick="redirecionarParaArtigo('Empreendedorismo no E-commerce')">Ver
+                                    mais</a>
                             </div>
                         </div>
                     </div>
@@ -244,7 +244,8 @@
                             <div class="p-4">
                                 <h4>Mobilidade Sustentável e Tecnologia
                                 </h4>
-                                <p class="py-2">Explore as inovações na mobilidade urbana sustentável.</p>
+                                <p class="py-2">Explore as inovações na
+                                    mobilidade urbana sustentável.</p>
                                 <a
                                     href="http://127.0.0.1:3000/artigo.html?titulo=Mobilidade%20Sustent%C3%A1vel%20e%20Tecnologia"
                                     class="text-decoration-none">Ver mais</a>
@@ -343,7 +344,7 @@
 
         <script src="assets/js/index.js"></script>
         <script>
-            function redirecionarParaArtigo(titulo) {
+           function redirecionarParaArtigo(titulo) {
             // Codifique o título para torná-lo seguro para URL
             const tituloCodificado = encodeURIComponent(titulo);
 
