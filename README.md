@@ -7,7 +7,7 @@
 
 <div>
 
- <h2  style="color: green; text-decoration: none;"><strong><a href="https://delisg.github.io/blog-technology/"> 🎥 Visualizar Projeto no Bowser</a></strong></h2>
+ <h2  style="color: green; text-decoration: none;"><strong><a href="https://delisg.github.io/blog-technology/"> 🎥 Visualizar</a></strong></h2>
 
 
 </div>
